@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Aluminium Foil', 'Can', 'Transparent Plastic Bottle']
+
+roboflow:
+  workspace: aditya-raj-kmypu
+  project: try-nycoq
+  version: 5
+  license: MIT
+  url: https://universe.roboflow.com/aditya-raj-kmypu/try-nycoq/dataset/5
